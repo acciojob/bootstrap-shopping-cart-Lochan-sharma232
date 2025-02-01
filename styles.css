@@ -1,10 +1,10 @@
-.block-heading{
+block-heading{
 	color:#3b99e0;
    text-align:center;
 }
 .img-fluid{
      max-width: 100px;
-     height: auto;
+     height: 100px;
  }
 
  .quantity-input {
