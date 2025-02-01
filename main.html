@@ -8,76 +8,103 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+<div class="container py-5">
+    <h1 class="mb-5">Your Shopping Cart</h1>
     <div class="row">
-        <!-- Shopping Cart Items -->
-        <div class=".col-lg-8">
-            <h3>Shopping Cart</h3>
-     <p class="block-heading" style=position:center;>
-    The customeris very important, the customer will
-	be followed be followed by the customer.Now, as an urn I have 
-	no right to be possession of property.        
-   </p>
-            <!-- Cart Item 1 -->
-            <div class="cart-item">
-                <div class="d-flex">
-                    <img src="https://plus.unsplash.com/premium_photo-1675660733751-1954f47abfef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwc2hvcHBpbmclMjBwaG90byUyMG9mJTIwcGhvbmUlMjBtb2RhbHxlbnwwfHwwfHx8MA%3D%3D" alt="Product" class="img-fluid">
-                    <div>
-                        <h6>I am very sorry</h6>
-                        <p class="mb-0">Display:5 inches</p>
-						<p class="mb-0">RAM:4GB</p>
-						<p class="mb-0">Memory:32GB</p>
+        <div class="col-lg-8">
+            <!-- Cart Items -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row cart-item mb-3">
+                        <div class="col-md-3">
+                            <img src="https://via.placeholder.com/100" alt="Product 1" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-5">
+                            <h5 class="card-title">Product 1</h5>
+                            <p class="text-muted">Category: Electronics</p>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary btn-sm" type="button">-</button>
+                                <input style="max-width:100px" type="text" class="form-control  form-control-sm text-center quantity-input" value="1">
+                                <button class="btn btn-outline-secondary btn-sm" type="button">+</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 text-end">
+                            <p class="fw-bold">$99.99</p>
+                            <button class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row cart-item">
+                        <div class="col-md-3">
+                            <img src="https://via.placeholder.com/100" alt="Product 2" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-5">
+                            <h5 class="card-title">Product 2</h5>
+                            <p class="text-muted">Category: Clothing</p>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary btn-sm" type="button">-</button>
+                                <input style="max-width:100px" type="text" class="form-control form-control-sm text-center quantity-input" value="2">
+                                <button class="btn btn-outline-secondary btn-sm" type="button">+</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 text-end">
+                            <p class="fw-bold">$49.99</p>
+                            <button class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                        </div>
                     </div>
                 </div>
-                <span>$120</span>
             </div>
-
-            <!-- Cart Item 3 -->
-            <div class="cart-item">
-                <div class="d-flex">
-                    <img src="https://plus.unsplash.com/premium_photo-1675660733751-1954f47abfef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwc2hvcHBpbmclMjBwaG90byUyMG9mJTIwcGhvbmUlMjBtb2RhbHxlbnwwfHwwfHx8MA%3D%3D" alt="Product" class="img-fluid me-3">
-                    <div>
-                        <h6>I am very sorry</h6>
-                        <p class="mb-0">Display: 5inches</p>
-						<p class="mb-0">RAM:4GB</p>
-						<p class="mb-0">Memory:32GB</p>
-                    </div>
-                    </div>
-                </div>
-                <span>$120</span>
+            <!-- Continue Shopping Button -->
+            <div class="text-start mb-4">
+                <a href="#" class="btn btn-outline-primary">
+                    <i class="bi bi-arrow-left me-2"></i>Continue Shopping
+                </a>
             </div>
         </div>
-            <!-- Cart Item 2 -->
-            <div class="cart-item">
-                <div class="d-flex">
-                    <img src="https://plus.unsplash.com/premium_photo-1675660733751-1954f47abfef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwc2hvcHBpbmclMjBwaG90byUyMG9mJTIwcGhvbmUlMjBtb2RhbHxlbnwwfHwwfHx8MA%3D%3D" alt="Product" class="img-fluid me-3">
-                    <div>
-                        <h6>Product Name 2</h6>
-                        <p class="mb-0">2 items</p>
+        <div class="col-lg-4">
+            <!-- Cart Summary -->
+            <div class="card cart-summary">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Order Summary</h5>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Subtotal</span>
+                        <span>$199.97</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Shipping</span>
+                        <span>$10.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Tax</span>
+                        <span>$20.00</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between mb-4">
+                        <strong>Total</strong>
+                        <strong>$229.97</strong>
+                    </div>
+                    <button class="btn btn-primary w-100">Proceed to Checkout</button>
+                </div>
+            </div>
+            <!-- Promo Code -->
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Apply Promo Code</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter promo code">
+                        <button class="btn btn-outline-secondary" type="button">Apply</button>
                     </div>
                 </div>
-                <span>$120</span>
-            </div>
-        </div>
-
-        <!-- Cart Summary -->
-        <div class="col-md-4">
-            <div class="cart-summary">
-                <h5>Summary</h5>
-                <ul class="list-unstyled">
-                    <li class="d-flex justify-content-between">
-                        <span>Summary</span>
-                        </li>
-                    <li class="d-flex justify-content-between">
-                        <span>Subtotal$360</span>
-                        <span>$0</span>
-                    </li>
-                    <li class="d-flex justify-content-between">
-                        <span class="total-price">Total</span>
-                        <span class="total-price">$360</span>
-                    </li>
-                </ul>
-                <button class="btn btn-checkout" disabled>Proceed to Checkout</button>
             </div>
         </div>
     </div>
