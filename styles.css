@@ -1,8 +1,7 @@
-.block-heading h2 {
+.block-heading h1{
 	color:#3b99e0;
-   text-align:center;
 }
-.block-heading p{
+	.block-heading p{
 	text-align:center;
 }
 .img-fluid{
