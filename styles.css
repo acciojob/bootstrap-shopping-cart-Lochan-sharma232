@@ -1,6 +1,9 @@
-.block-heading {
+.block-heading h2 {
 	color:#3b99e0;
    text-align:center;
+}
+.block-heading p{
+	text-align:center;
 }
 .img-fluid{
      max-width: 100px;
